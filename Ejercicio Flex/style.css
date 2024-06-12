@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background: url("./fondo-flex.jpg") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.div-img{
+    width: 162px;
+    display: flex;
+}
+
+.caja1{
+    display: flex;
+    justify-content: space-around;
+    top: 10px;
+}
+
+.caja2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja3{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    background-size: cover;
+}
